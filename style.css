@@ -1,0 +1,71 @@
+*{
+	margin: 0px;
+	margin-top: 2px;
+}
+
+.headerDiv{
+	display: inline-block;
+	vertical-align: middle;
+	padding-right: 40px;
+}
+
+#pageTitle{
+	font-size: 48px;
+	font-weight: bold;
+	text-align: center;
+}
+
+nav.navigation{
+	background-color: #555555;
+	margin-bottom: 20px;
+}
+
+nav.navigation div{
+	display: inline-block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+nav.navigation div a{
+	color: white;
+	text-decoration: none;
+}
+
+nav.navigation div:hover{
+	color: black;
+	background-color: #999999;
+	transition: 0.3;
+	text-decoration: none;
+}
+
+p.presentation{
+	margin-bottom: 20px;
+}
+
+.mainDiv{
+	margin: 25px;
+	font-size: 20px;
+}
+
+h1.navTitle{
+	font-weight: 900;
+	font-size: 38px;
+}
+
+.listCourses{
+	list-style-type: ' ➤  ';
+}
+
+.listCourses li a{
+	text-decoration: none;
+}
+
+#navCourses{
+	padding-bottom: 70px;
+}
+
+#navTutorials{
+	padding-bottom: 70px;
+}
